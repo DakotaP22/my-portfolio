@@ -2,7 +2,7 @@ import { NextPage } from "next"
 
 const Technologies: NextPage = () => {
   return (
-      <h1>Technologies</h1>
+      <h1>This Website Was Built With:</h1>
   )
 }
 
