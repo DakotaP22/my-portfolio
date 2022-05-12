@@ -1,5 +1,5 @@
 import HtmlTag from "../components/html-tag";
-import LineCountBar from "../components/layout/line-count-bar";
+import LineCountBar from "../components/line-count-bar";
 import TypeAnimation from "../components/type-animation";
 
 export default function Home() {
@@ -22,22 +22,15 @@ export default function Home() {
         <HtmlTag tag="p">Welcome to my Porfolio!</HtmlTag>
         <HtmlTag tag="p">
           I am a full stack web developer with experience working in&nbsp;
-          <TypeAnimation
-            words={["Angular", "React", "Next.js", "Node.js"]}
-            pauseFrames={15}
-            interval={100}
-          ></TypeAnimation>
+          <TypeAnimation words={["Angular", "React", "Next.js", "Node.js"]} pauseFrames={15} interval={100}></TypeAnimation>
         </HtmlTag>
         <HtmlTag multiline tag="p">
-          I am passionate about creating highly performant web applications with
-          a focus on quick <br /> render times and minimal blocking in the user
+          I am passionate about creating highly performant web applications with a focus on quick <br /> render times and minimal blocking in the user
           experience.
         </HtmlTag>
         <br />
         <br />
-        <HtmlTag tag="q">
-          Never code in light mode. The light attracts bugs!
-        </HtmlTag>
+        <HtmlTag tag="q">Never code in light mode. The light attracts bugs!</HtmlTag>
       </div>
     </div>
   );
