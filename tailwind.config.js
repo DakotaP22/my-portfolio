@@ -38,7 +38,7 @@ module.exports = {
         dark_html_text: '#9cdcfe',
       },
       transitionProperty: {
-        'width': 'width'
+        'width': 'width',
       },
     },
   },
