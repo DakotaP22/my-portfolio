@@ -1,0 +1,40 @@
+.layout {
+    display: grid;
+    grid-template-rows: 1fr 25px;
+    grid-template-columns: 75px min-content 1fr;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+
+.drawer {
+    height: 100%;
+    background-color: #252526;
+    transition: width .5s ease-out;
+}
+.drawer.open {
+    width: 300px;
+}
+.drawer.closed {
+    width: 0px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #1E1E1E;
+}
+
+.bottomBar {
+    background-color: #007ACC;
+    display: grid;
+    grid-column: 1 / span 3;
+}
+.bottomBar>p {
+    font-size: 8px;
+    width: 100%;
+}

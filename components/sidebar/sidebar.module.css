@@ -1,0 +1,12 @@
+.drawer {
+    overflow-x: hidden;
+    transition: width .5s ease-out;
+}
+
+.drawer.open {
+    width: 300px;
+}
+
+.drawer.closed {
+    width: 0px;
+}
