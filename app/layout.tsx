@@ -18,12 +18,6 @@ export default function RootLayout({
       <head />
       <body className="grid grid-cols-root_layout grid-rows-root_layout">
         
-        {/* <div className={styles.sidebar}>
-          <button onClick={() => setDrawer(!open)}>Toggle Drawer</button>
-        </div>
-
-        <div className={`${styles.drawer} ${open ? styles.open : styles.closed}`}></div> */}
-        
         <Sidebar />
 
 
@@ -31,8 +25,10 @@ export default function RootLayout({
           {children}
         </div>
 
-        <div className={styles.bottomBar}>
-          <p>Next.js 13</p>
+        <div className="bg-blue col-span-3 text-[12px] text-[#fff] grid grid-cols-bottom_bar px-[12px] gap-x-[10px] content-center font-bold">
+          <p>Next 13</p>
+          <p>Vercel</p>
+          <p>Typescript</p>
         </div>
 
         </body>

@@ -12,10 +12,14 @@ module.exports = {
         medium: "#252526",
         dark: "#1E1E1E",
       },
+      blue: {
+        DEFAULT: "#007ACC",
+      },
     },
     extend: {
       gridTemplateColumns: {
         root_layout: "min-content 1fr",
+        bottom_bar: "1fr min-content min-content",
       },
       gridTemplateRows: {
         root_layout: "1fr 25px",
